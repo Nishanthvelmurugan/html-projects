@@ -1,0 +1,57 @@
+.sty{
+    background-color: aqua;
+    padding: 275px;
+}
+
+.sty1{
+    background-color: aquamarine;
+    height: 175px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.sty2{
+    text-shadow: bisque;
+    text-align: center;
+    color:  rgb(12, 65, 67);
+    font-style: oblique;
+}
+
+.sty3{
+    border: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.sty3:hover{
+    background-color: rgb(84, 175, 161);
+}
+
+.sty4{
+    padding: 5px;
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+.sty4 :hover{
+    background-color: bisque;
+    padding: auto;
+}
+
+.sty5{
+
+    background-color: rgb(153, 204, 223);
+    text-shadow: rgb(255, 255, 255);
+    text-transform: none;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px auto;
+    border: 100px;
+    color: rgb(49, 42, 93);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

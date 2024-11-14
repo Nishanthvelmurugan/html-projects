@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2022/03/04/08/39/background-7046865_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contain {
+    text-align: center;
+    color: #6e6868;
+}
+
+.container, .wrapper, .wrap {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(247, 228, 203, 0.664);
+    border-radius: 8px;
+}
+
+.container{
+    width: 360px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 200;
+}
+
+.wrapper{
+    width: 200px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    font-weight: 400;
+}
+
+.wrap{
+    width: 260px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 200;
+}

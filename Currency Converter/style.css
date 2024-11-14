@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.f5214a10cfe56ac21e6a5760d17cb9e9?rik=%2bitjEzSCNEbfhQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f0%2f0%2f2%2f1092345-cool-vintage-hd-backgrounds-1920x1080-lockscreen.jpg&ehk=3wp8MfhgAQjqTXbmLV5lNyFpiDbCMwLSexYbA1LQvFg%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(49, 46, 42);
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.currency {
+    border: 10px;
+    padding: 10px;
+    color: rgb(177, 161, 139);
+    font-size: 1.5em;
+    background-color: rgba(155, 137, 79, 0.36);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px;
+}
+
+.input {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(218, 194, 108, 0.901);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(228, 197, 158);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(237, 183, 102);
+}

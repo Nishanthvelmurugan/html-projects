@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://i.pinimg.com/originals/4d/97/cf/4d97cfcf10e73698aebe41869087d8a7.jpg")
+    no-repeat center fixed;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    color: #6e6868;
+}
+
+.weather-box {
+    border: 2px solid #221e1e;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(90, 85, 79, 0.664);
+    border-radius: 8px;
+}
+
+.weather {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(79, 77, 75, 0.664);
+    border-radius: 8px;
+}
+
+#temp {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(187, 178, 164, 0.664);
+    border-radius: 8px;
+}
+
+#main {
+    border: 2px solid #2e2929;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(134, 125, 114, 0.664);
+    border-radius: 8px;
+}
+
+.input-box {
+    background-color: rgba(176, 104, 104, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(184, 98, 98, 0.1);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #d87d7d;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: 2px solid #0056b3;
+}
