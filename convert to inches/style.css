@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/d6/fa/ab/d6faabbfc62573afe47e88d2909a01d8.jpg");
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px;
+}
+
+
+.head{
+    color: rgb(174, 146, 110);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+.input{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: ;
+}
+
+.output{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#btn{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #95a496;
+    color: #fff;
+    cursor: pointer;
+}
