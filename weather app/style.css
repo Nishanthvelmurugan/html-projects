@@ -10,12 +10,13 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .container {
@@ -25,7 +26,7 @@ body {
 
 .weather-box {
     border: 2px solid #221e1e;
-    padding: 20px;
+    padding: 60px;
     margin: 10px;
     background-color: rgba(90, 85, 79, 0.664);
     border-radius: 8px;
