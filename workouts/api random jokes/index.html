@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    body {
+      background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+      background-size: 200% 200%;
+      animation: gradient 3s ease infinite;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+</style>
+<body class="box">
+    <h1>Hey there tap to get 10 random jokes <svg class="h-8 w-8 text-red-500"  width="40" height="40" viewBox="0 0 17 24" stroke-width="3" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M5 11a7 7 0 0 1 14 0v7a1.78 1.78 0 0 1 -3.1 1.4a1.65 1.65 0 0 0 -2.6 0a1.65 1.65 0 0 1 -2.6 0a1.65 1.65 0 0 0 -2.6 0a1.78 1.78 0 0 1 -3.1 -1.4v-7" />  <line x1="10" y1="10" x2="10.01" y2="10" />  <line x1="14" y1="10" x2="14.01" y2="10" />  <path d="M10 14a3.5 3.5 0 0 0 4 0" /></svg></h1>
+    <h2 id="joke"></h2>
+    <button id="getjoke">Get Joke</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
